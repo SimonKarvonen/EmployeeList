@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-export default function Users() {
+export default function Employees() {
   const [employeeList, setEmployeeList] = useState(null);
   const [isLoading, setLoading] = useState(true);
 

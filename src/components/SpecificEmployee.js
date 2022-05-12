@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 
-export default function SpecificUser() {
+export default function SpecificEmployee() {
   const [specificEmployee, setSpecificEmployee] = useState(null);
   const [isLoading, setLoading] = useState(true);
 
